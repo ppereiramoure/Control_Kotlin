@@ -1,5 +1,6 @@
 import kotlin.random.Random
 
+
 fun main(args: Array<String>) {
     for (iterador in ArrayClass(11).array){
         println(iterador)
@@ -8,3 +9,9 @@ fun main(args: Array<String>) {
 
     array.array.forEach { println(it) }
 }
+
+        for (numero in ArrayClass(11).array){
+            println(numero)
+        }
+}
+
