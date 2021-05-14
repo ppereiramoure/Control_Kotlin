@@ -11,6 +11,8 @@ fun main(args: Array<String>) {
     for (numero in ArrayClass(11).array){
         println(numero)
     }
+
+    val array2 = ejercicio3().listaF(ejercicio2(10, {Random.nextInt(50, 250)}).array)
 }
 
 
