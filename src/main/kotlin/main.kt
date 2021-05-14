@@ -7,4 +7,8 @@ fun main(args: Array<String>) {
     val array = ejercicio2(10){ Random.nextInt(50, 250)}
 
     array.array.forEach { println(it) }
+
+    for (numero in ArrayClass(11).array){
+        println(numero)
+    }
 }
