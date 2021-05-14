@@ -1,4 +1,5 @@
-class ArrayClass(sizeArray: Int) {
+    class ArrayClass(sizeArray: Int) {
 
-    val array = Array(sizeArray){it*6}
-}
+        val array = Array(sizeArray){it*6}
+
+    }
